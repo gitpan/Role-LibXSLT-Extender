@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
+lib/Role/LibXSLT/Extender.pm
+t/000compile.t
+t/010register.t
+t/data/documents/single_ns.xml
+t/data/stylesheets/single_ns.xsl
+t/lib/TestExtenderSingleNS.pm
+t/release-pod-coverage.t
+t/release-pod-syntax.t
