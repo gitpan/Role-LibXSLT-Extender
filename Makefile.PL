@@ -21,9 +21,10 @@ my %WriteMakefileArgs = (
   'NAME' => 'Role::LibXSLT::Extender',
   'PREREQ_PM' => {
     'Moose' => '0',
-    'XML::LibXSLT' => '1.70'
+    'XML::LibXSLT' => '1.70',
+    'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '1.101550',
   'test' => {
     'TESTS' => 't/*.t'
   }
