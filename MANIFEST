@@ -4,6 +4,7 @@ MANIFEST
 META.yml
 Makefile.PL
 README
+bin/xxslt.pl
 dist.ini
 lib/Role/LibXSLT/Extender.pm
 t/000compile.t

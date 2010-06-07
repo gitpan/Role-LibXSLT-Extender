@@ -16,4 +16,4 @@ requires:
   Moose: 0
   XML::LibXSLT: 1.70
   namespace::autoclean: 0
-version: 1.101550
+version: 1.101580

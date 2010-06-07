@@ -16,7 +16,9 @@ my %WriteMakefileArgs = (
     'ExtUtils::MakeMaker' => '6.31'
   },
   'DISTNAME' => 'Role-LibXSLT-Extender',
-  'EXE_FILES' => [],
+  'EXE_FILES' => [
+    'bin/xxslt.pl'
+  ],
   'LICENSE' => 'perl',
   'NAME' => 'Role::LibXSLT::Extender',
   'PREREQ_PM' => {
@@ -24,7 +26,7 @@ my %WriteMakefileArgs = (
     'XML::LibXSLT' => '1.70',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '1.101550',
+  'VERSION' => '1.101580',
   'test' => {
     'TESTS' => 't/*.t'
   }

@@ -1,6 +1,6 @@
 package Role::LibXSLT::Extender;
 BEGIN {
-  $Role::LibXSLT::Extender::VERSION = '1.101550';
+  $Role::LibXSLT::Extender::VERSION = '1.101580';
 }
 use Moose::Role;
 use XML::LibXSLT;
@@ -14,7 +14,7 @@ Role::LibXSLT::Extender
 
 =head1 VERSION
 
-version 1.101550
+version 1.101580
 
 =head1 SYNOPSIS
 
